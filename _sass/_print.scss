@@ -1,0 +1,20 @@
+@media print  {
+  @page { margin: 0; }
+
+  header,
+  footer {
+    display: none;
+  }
+
+  .container {
+    border: 0;
+  }
+
+  .hidden-print {
+    display: none;
+  }
+
+  .visible-print-block {
+    display: block;
+  }
+}

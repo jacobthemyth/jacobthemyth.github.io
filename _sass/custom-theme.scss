@@ -1,0 +1,18 @@
+$bourbon: (
+  "modular-scale-base": 1rem
+);
+
+@import "bourbon/bourbon";
+$max-width: 768px !global;
+@import "neat/neat";
+@import "base/base";
+
+@import "../node_modules/normalize.css/normalize.css";
+@import "print";
+@import "syntax";
+
+
+@import "pages/landing";
+@import "pages/resume";
+
+@import "modules/container";

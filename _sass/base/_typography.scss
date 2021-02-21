@@ -1,0 +1,100 @@
+body {
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+
+  @include media($medium-screen-up) {
+    font-size: $medium-up-font-size;
+    line-height: $medium-up-line-height;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  margin: $small-spacing 0;
+}
+
+h1,
+h2 {
+  line-height: $heading-line-height;
+
+  @include media($medium-screen-up) {
+    line-height: $medium-up-heading-line-height;
+  }
+}
+
+// scss-lint:disable QualifyingElement
+h1:not(.t-heading),
+.t-heading.-size-xxl {
+  font-size: modular-scale(6, $small-up-heading-base-size);
+
+  @include media($medium-screen-up) {
+    font-size: modular-scale(6, $medium-up-heading-base-size);
+  }
+}
+
+h2:not(.t-heading),
+.t-heading.-size-xl {
+  font-size: modular-scale(5, $small-up-heading-base-size);
+
+  @include media($medium-screen-up) {
+    font-size: modular-scale(5, $medium-up-heading-base-size);
+  }
+}
+
+h3:not(.t-heading),
+.t-heading.-size-lg {
+  font-size: modular-scale(4, $small-up-heading-base-size);
+
+  @include media($medium-screen-up) {
+    font-size: modular-scale(4, $medium-up-heading-base-size);
+  }
+}
+// scss-lint:enable QualifyingElement
+
+p {
+  margin: 0 0 $small-spacing;
+}
+
+a {
+  background-image: linear-gradient(to bottom, $base-font-color 75%, $base-font-color 75%);
+  background-position: 0 99.9%;
+  background-repeat: repeat-x;
+  background-size: 1px 1px;
+  color: $base-font-color;
+  text-decoration: none;
+  transition: color $base-duration $base-timing;
+
+  &:active,
+  &:focus,
+  &:hover {
+    background-image: linear-gradient(to bottom, $action-color 75%, $action-color 75%);
+    color: $action-color;
+  }
+
+  &.inverted {
+    background-image: linear-gradient(to bottom, $inverted-font-color 75%, $inverted-font-color 75%);
+    color: $inverted-font-color;
+  }
+
+  &.inverted:active,
+  &.inverted:focus,
+  &.inverted:hover {
+    background-image: linear-gradient(to bottom, $inverted-action-color 75%, $inverted-action-color 75%);
+    color: $inverted-action-color;
+  }
+}
+
+hr {
+  border-bottom: $base-border;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: $base-spacing 0;
+}

@@ -1,0 +1,55 @@
+// Typography
+$base-font-family: "Roboto", $font-stack-system;
+$heading-font-family: $base-font-family;
+
+// Font Sizes
+$base-font-size: 14px;
+$medium-up-font-size: strip-unit(modular-scale(1)) * 1rem;
+
+$small-up-heading-base-size: 0.5rem;
+$medium-up-heading-base-size: 0.7rem;
+
+// Line height
+$base-line-height: strip-unit(modular-scale(2));
+$medium-up-line-height: strip-unit(modular-scale(2));
+$heading-line-height: strip-unit(modular-scale(2));
+$medium-up-heading-line-height: strip-unit(modular-scale(1));
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1rem;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$light-blue: #b1d7fb;
+$medium-blue: #00b5dc;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #e4e4e4;
+$very-light-gray: #fafafa;
+$black: #000;
+$white-linen: #f8f0e8;
+$paris-daisy: #fff46e;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$inverted-font-color: $white-linen;
+$action-color: $medium-blue;
+$inverted-action-color: $paris-daisy;
+
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: $very-light-gray;
+$secondary-background-color: tint($base-border-color, 75%);
+
+// Forms
+$form-box-shadow: inset 0 1px 3px rgba($black, 0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;

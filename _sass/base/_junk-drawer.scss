@@ -1,0 +1,28 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+// iOS "clickable elements" fix for role="button"
+//
+// Fixes "clickability" issue (and more generally, the firing of events such
+// as focus as well) for traditionally non-focusable elements with
+// role="button" see
+// https://developer.mozilla.org/en-US/docs/Web/Events/click#Safari_Mobile
+// Credit: Bootstrap
+
+[role="button"] {
+  cursor: pointer;
+}
+
+.visible-print-block {
+  display: none;
+}
+
+[role=contentinfo] .copyright {
+  float: left;
+}
+
+.feed-link {
+  background-image: none;
+  float: right;
+}

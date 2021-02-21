@@ -1,0 +1,18 @@
+<article class="post-preview" itemscope itemtype="http://schema.org/Article">
+  <h2>
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </h2>
+  <p itemprop="description">
+    {% if post.date %}
+      <div class="post-preview__date">
+        <time datetime="{{ post.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>
+      </div>
+    {% endif %}
+
+    {{ post.excerpt | strip_html | truncate: 160 }}
+
+    {% if post.image.teaser %}
+      <img src="{{ site.baseurl }}/images/{{ post.image.teaser }}" alt="teaser" itemprop="image">
+    {% endif %}
+  </p>
+</article>

@@ -1,0 +1,17 @@
+{
+  "name": "systemist.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/systemist/systemist.github.io.git"
+  },
+  "author": "Jacob Smith",
+  "bugs": {
+    "url": "https://github.com/systemist/systemist.github.io/issues"
+  },
+  "homepage": "https://github.com/systemist/systemist.github.io#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

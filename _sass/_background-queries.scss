@@ -1,0 +1,11 @@
+$retina: '(min-resolution: 2dppx)';
+$bg-queries: (
+  'full': '(min-width: 2561px), only screen and (min-height: 1448px)',
+  '2560': '(max-width: 2560px) and (max-height: 1447px)',
+  '1200@2x': '(max-width: 2400px) and (max-height: 1356px) and (#{retina})',
+  '1200': '(max-width: 1200px) and (max-height: 678px)',
+  '992@2x': '(max-width: 1984px) and (max-height: 1121px) and (#{retina})',
+  '992': '(max-width: 992px) and (max-height: 561px)',
+  '768@2x': '(max-width: 1536px) and (max-height: 868px) and (#{retina})',
+  '768': '(max-width: 768px) and (max-height: 434px)'
+);

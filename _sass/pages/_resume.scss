@@ -1,0 +1,48 @@
+.resume {
+  &__basic-info li {
+    display: inline-block;
+    font-size: modular-scale(-1);
+    margin-right: modular-scale(-1);
+  }
+
+  &__actions {
+
+    list-style: none;
+
+    @include media($large-screen-up) {
+      left: -200px;
+      position: absolute;
+      top: 3em;
+      width: 200px;
+    }
+
+    li {
+      margin: 0.5em;
+    }
+
+    .btn,
+    button {
+      width: 100%;
+    }
+
+  }
+
+  @media print {
+    font-size: 13px;
+
+    hr {
+      margin: $small-spacing;
+    }
+
+    p {
+      margin: 0 0 ($small-spacing / 2);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin: ($small-spacing / 2) 0;
+    }
+  }
+}
