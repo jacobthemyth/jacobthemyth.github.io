@@ -1,22 +1,21 @@
 @media print  {
-  .resume {
-    @page { margin: 0; }
+  @page { margin: 0; }
 
-    header,
-    footer {
-      display: none;
-    }
+  header,
+  footer {
+    display: none;
+  }
 
-    .container {
-      border: none;
-    }
+  // use div to make more specific than .container
+  div.container {
+    border: none;
+  }
 
-    .hidden-print {
-      display: none;
-    }
+  .hidden-print {
+    display: none;
+  }
 
-    .visible-print-block {
-      display: block;
-    }
+  .visible-print-block {
+    display: block;
   }
 }
