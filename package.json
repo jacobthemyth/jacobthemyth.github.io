@@ -1,16 +1,16 @@
 {
-  "name": "systemist.github.io",
+  "name": "jacobthemyth.github.io",
   "version": "1.0.0",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/systemist/systemist.github.io.git"
+    "url": "git+https://github.com/jacobthemyth/jacobthemyth.github.io.git"
   },
   "author": "Jacob Smith",
   "bugs": {
-    "url": "https://github.com/systemist/systemist.github.io/issues"
+    "url": "https://github.com/jacobthemyth/jacobthemyth.github.io/issues"
   },
-  "homepage": "https://github.com/systemist/systemist.github.io#readme",
+  "homepage": "https://github.com/jacobthemyth/jacobthemyth.github.io#readme",
   "dependencies": {
     "normalize.css": "^8.0.1"
   }
