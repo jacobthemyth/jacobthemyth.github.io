@@ -4,31 +4,124 @@ permalink: /resume
 body_class: resume
 ---
 
-I’m a software systems engineer focused mostly on SaaS businesses scaling their data systems and organizations.
+## Summary
 
-## Experience
+Software engineer with 14 years of experience, 9 years focused on building and optimizing distributed systems on AWS. Expertise in Linux application development, Kubernetes-based container orchestration, and application performance diagnosis and optimization. Adept at leading cross-functional teams and resolving production-critical issues with calm and strategic thinking. Passionate about hands-on engineering and debugging at scale, seeking a role to drive impactful improvements across cloud VM platforms, operating systems, and compute runtimes.
 
-### [Kajabi](https://kajabi.com)
-#### Staff Engineer: December 2020 - Present
-I support engineers across the org with data systems governance and training (e.g. PostgreSQL, Kafka, and Redis), help unblock engineers who are stuck on complex problems, and guide and collaborate with others to resolve production issues and improve our improvement processes (e.g. postmortems, runbooks, and design documents).
+<hr>
 
-#### Production Engineering Manager: July 2020 - December 2020
-Improved hiring and onboarding processes for the Production Engineering team and grew the team from 2 to 7 engineers, and also managed 2 full time contractors. Acted as technical lead of a project to migrate our primary OLTP database from Heroku to AWS Aurora, and to a lesser extent, provided technical leadership for an initiative to migrate application servers from Heroku to AWS EKS.
+## Languages and technologies
 
-#### Senior Site Reliability Engineer: November 2019 - July 2020
-Led projects to improve observability and scaleability of primary OLTP RDMS and update outdated core dependencies such as Ruby and Rails.
+- **Languages**: Ruby, Go, Bash, C, Java, SQL, JavaScript
+- **Distributed Systems & Databases**: PostgreSQL, Kafka, Cassandra, Redis, Elasticsearch
+- **Cloud & Orchestration**: AWS (e.g. EC2, EBS, AMI versioning & management, EKS), Kubernetes, Terraform, Docker, Linux KVM
+- **Linux Expertise**: RHEL, Ubuntu, kernel debugging (e.g. strace, tc), kernel tuning (e.g. I/O scheduling, virtual memory), networking (e.g. iptables, nftables, tcpdump), and storage (e.g. LVM, XFS, ext4)
+- **Other**: Observability frameworks, SQL query optimization, distributed systems design
+- **Basic knowledge of**: ML model training and inference, Elastic Fabric Adapter, GPU architecture and memory model
 
-### Independent Contractor
-#### Software Systems Engineer: May 2019 - November 2019
-Worked at a Fortune 50 company on a core systems team. This included profiling and instrumenting a Go service that linked to C++ and Rust libraries, working on C libraries and Ruby gems for dependency compatibility, and making improvements to a database client library.
+<hr>
 
-### [ACS Technologies](https://www.acstechnologies.com)
-#### Lead Software Engineer: January 2019 - May 2019
-Led a team extracting a business domain from a monolithic .NET web application to a Go service using an eventually consistent data store.
+## Work Experience
 
-### [Test Double](http://testdouble.com)
-#### Developer: November 2016 - December 2018
-Responsible for software delivery and consulting, I integrated with client teams and help improve their software delivery process while delivering well-tested software using the principles of Continuous Delivery.
+### Senior DevOps Consultant
+{: .inline-left}
+#### Subcontractor for [Test Double](https://testdouble.com)&nbsp;(Remote)
+{: .inline-center}
+#### October 2023 - Present
+{: .inline-right}
 
-- At [GoSpotCheck](http://gospotcheck.com), I worked on adding features to the existing web application as well as developing microservices to support a more sustainable architecture.
-- At [Nexia Diagnostics](http://www.nexiahome.com/), I was responsible for software delivery of a distributed, real-time event processing pipeline and an associated single-page web application and API. I helped lead a re-architecture of their distributed event system so that they could scale to handle 10x their active connections while, at the same time, decreasing their infrastructure costs.
+- Supported a client in bringing a Ruby service based on a C library to production by refactoring an untested and brittle SWIG integration, enabling Ruby developers to make API changes without any knowledge of C types and idioms. Improved development velocity by creating a Fiddle-based wrapper for interactive library exploration and test writing, enabling incremental API design during development while supporting a static SWIG interface in production for safety and performance.
+- Resolved a catastrophic outage for another client by stabilizing workloads they had migrated from bare-metal to a KVM-based VM platform without accounting for the overhead of network latency for disk writes. Reduced the impact of network latency by identifying and implementing separation of workloads across multiple virtual block devices. Authored runbooks and automated workflows for long-term resiliency.
+
+### Staff Engineer
+{: .inline-left}
+#### [Kajabi](https://kajabi.com)&nbsp;(Remote)
+{: .inline-center}
+#### July 2021 - July 2023
+{: .inline-right}
+
+- Reported to the SVP of Engineering and was responsible for the technical direction of all of the teams in the Shared Services group which included Production Engineering, UX Engineering, Quality Engineering, and Security & Risk.
+- Provided architectural leadership for data systems design, including scaling PostgreSQL and Redis for high-traffic applications. Mentored engineers in optimizing application performance and writing resilient application code against distributed systems like Kafka and DynamoDB.
+
+### Staff Production Engineer
+{: .inline-left}
+#### [Kajabi](https://kajabi.com)&nbsp;(Remote)
+{: .inline-center}
+#### December 2020 - July 2021
+{: .inline-right}
+
+- Migrated the build process for our primary Rails application to Docker using the latest BuildKit features, reducing the median build time from 45 minutes to 9 minutes.
+- Optimized Aurora PostgreSQL configuration and monitoring to support 50,000 QPS during peak loads, ensuring consistent performance for critical workloads.
+- Isolated performance bottlenecks in PostgreSQL by decoupling workloads into a separate Aurora cluster. Deployed a foreign data wrapper (FDW) to maintain seamless joins and prevent system-wide slowdowns during peak traffic.
+
+### Senior Production Engineer (Tech Lead)
+{: .inline-left}
+#### [Kajabi](https://kajabi.com)&nbsp;(Remote)
+{: .inline-center}
+#### November 2019 - December 2020
+{: .inline-right}
+
+- Was hired as a tech lead for the Production Engineering team which was previously composed of 2 software engineers with little prior experience administering and scaling production systems.
+- Defined the hiring and onboarding processes for the Production Engineering team and grew the team from 2 to 7 engineers while managing 2 full time contractors.
+- Designed and executed a near-zero downtime migration of a Heroku PostgreSQL database to AWS Aurora PostgreSQL, leveraging kernel tuning and cache warming to reduce customer impact and proactive testing and rollback planning to ensure resilience.
+- Developed IaC, migration automations, and provided technical leadership to the Production Engineering team and the 6 product development teams for migrating application compute workloads from Heroku to AWS EKS.
+- Upgraded dozens of dependencies in the Rails monolith, wrote a handful of libraries and services in Ruby around availability, and helped improve the observability of the system both by directly adding instrumentation and by working with the product development teams to add their own instrumentation and monitors.
+
+### Senior Software Consultant
+{: .inline-left}
+#### Subcontractor for [Test Double](https://testdouble.com)&nbsp;(Remote)
+{: .inline-center}
+#### May 2019 - November 2019
+{: .inline-right}
+
+- Subcontracted for staff augmentation on a core systems team at a Fortune 50 company.
+- Diagnosed and fixed several issues in a Go service that ended up reducing the memory usage of ~10k server instances ~250MB each, thereby drastically reducing the overall memory usage across their Kubernetes cluster.
+- Worked on a fork of the Ruby VM in C to prototype the reliability and performance impact of a proposed change to string handling in Ruby.
+
+### Lead Software Engineer
+{: .inline-left}
+#### [ACS Technologies](https://www.acstechnologies.com)&nbsp;(Greenville, SC)
+{: .inline-center}
+#### January 2019 - May 2019
+{: .inline-right}
+
+- Led a team of 3 engineers extracting a service from a monolithic .NET web application on MSSQL to a Go microservice on Couchbase.
+- Supported engineers on other teams in learning Go, especially regarding concurrency and testing, and was a trusted resource for them despite being at the company a short time.
+
+### Software Consultant
+{: .inline-left}
+#### [Test Double](https://testdouble.com)&nbsp;(Remote)
+{: .inline-center}
+#### 2016 - 2018
+{: .inline-right}
+
+Integrated with client teams to help improve their software delivery process while personally designing and implementing software systems. The highlight of this role for me was working with distributed systems for the first time, in particular Kafka, Cassandra, and microservices in Java and Go.
+
+### Front End Engineering Instructor
+{: .inline-left}
+#### The Iron Yard&nbsp;(Greenville SC)
+{: .inline-center}
+#### 2014 - 2016
+{: .inline-right}
+
+Taught 12-week courses in front end development, focused on JavaScript apps using simple Node.js backends.
+
+### Web Developer
+{: .inline-left}
+#### Freelance
+{: .inline-center}
+#### 2010 - 2014
+{: .inline-right}
+
+- Developed web applications for small businesses and startups using Java, PHP, Node.js, nginx, and MySQL.
+- Worked with EC2 during its early years and learned how best practices for Linux administration on AWS required a different approach than on physical hardware.
+
+<hr>
+
+## Education
+### B.Sc. Computer Science
+{: .inline-left}
+#### Franciscan University of Steubenville
+{: .inline-center}
+#### 2009
+{: .inline-right}
