@@ -84,7 +84,7 @@ body_class: resume
 - Led a team of 3 engineers extracting a service from a monolithic .NET web application on MSSQL to a Go microservice on Couchbase.
 - Supported engineers on other teams in learning Go, especially regarding concurrency and testing, and was a trusted resource for them despite being at the company a short time.
 
-#### Software Consultant
+#### Senior Software Consultant
 {: .inline-left}
 #### [Test Double](https://testdouble.com)&nbsp;(Remote)
 {: .inline-center}
