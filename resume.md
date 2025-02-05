@@ -4,20 +4,14 @@ permalink: /resume
 body_class: resume
 ---
 
-## Summary
-
-Software engineer with 14 years of experience, 9 years focused on building and optimizing distributed systems on AWS. Expertise in Linux application development, Kubernetes-based container orchestration, and application performance diagnosis and optimization. Adept at leading cross-functional teams and resolving production-critical issues with calm and strategic thinking. Passionate about hands-on engineering and debugging at scale, seeking a role to drive impactful improvements across cloud VM platforms, operating systems, and compute runtimes.
-
-<hr>
-
 ## Languages and technologies
 
-- **Languages**: Ruby, Go, Bash, C, Java, SQL, JavaScript
+- **Languages**: Ruby, Go, Bash, Lua, C, SQL, JavaScript (Node.js)
 - **Distributed Systems & Databases**: PostgreSQL, Kafka, Cassandra, Redis, Elasticsearch
 - **Cloud & Orchestration**: AWS (e.g. EC2, EBS, AMI versioning & management, EKS), Kubernetes, Terraform, Docker, Linux KVM
 - **Linux Expertise**: RHEL, Ubuntu, kernel debugging (e.g. strace, tc), kernel tuning (e.g. I/O scheduling, virtual memory), networking (e.g. iptables, nftables, tcpdump), and storage (e.g. LVM, XFS, ext4)
 - **Other**: Observability frameworks, SQL query optimization, distributed systems design
-- **Basic knowledge of**: ML model training and inference, Elastic Fabric Adapter, GPU architecture and memory model
+- **Basic knowledge of**: ML model training and inference, GPU architecture and memory model
 
 <hr>
 
@@ -40,8 +34,8 @@ Software engineer with 14 years of experience, 9 years focused on building and o
 #### July 2021 - July 2023
 {: .inline-right}
 
-- Reported to the SVP of Engineering and was responsible for the technical direction of all of the teams in the Shared Services group which included Production Engineering, UX Engineering, Quality Engineering, and Security & Risk.
-- Provided architectural leadership for data systems design, including scaling PostgreSQL and Redis for high-traffic applications. Mentored engineers in optimizing application performance and writing resilient application code against distributed systems like Kafka and DynamoDB.
+- Reported to the SVP of Engineering and was responsible for technical leadership in the Shared Services group which included over 30 technical staff across Production Engineering, UX Engineering, Quality Engineering, and Security & Risk.
+- Worked with 9 cross-functional development teams to provide architectural leadership for data systems design and operation. Mentored engineers in optimizing application performance and writing resilient application code against distributed systems like Kafka and DynamoDB.
 
 ### Staff Production Engineer
 {: .inline-left}
