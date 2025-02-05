@@ -1,15 +1,11 @@
 @media print  {
-  @page {
-    margin: 0.25in;
-  }
-
   [role="main"] {
     margin: 0;
   }
 
-  .break-after-page {
-    break-after-page: page;
-    page-break-after: always;
+  .new-page {
+    break-before: page;
+    margin-bottom: 0.25in;
   }
 
   header,

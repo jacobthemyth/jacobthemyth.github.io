@@ -17,7 +17,7 @@ body_class: resume
 
 ## Work Experience
 
-### Senior DevOps Consultant
+#### Senior DevOps Consultant
 {: .inline-left}
 #### Subcontractor for [Test Double](https://testdouble.com)&nbsp;(Remote)
 {: .inline-center}
@@ -27,7 +27,7 @@ body_class: resume
 - Supported a client in bringing a Ruby service based on a C library to production by refactoring an untested and brittle SWIG integration, enabling Ruby developers to make API changes without any knowledge of C types and idioms. Improved development velocity by creating a Fiddle-based wrapper for interactive library exploration and test writing, enabling incremental API design during development while supporting a static SWIG interface in production for safety and performance.
 - Resolved a catastrophic outage for another client by stabilizing workloads they had migrated from bare-metal to a KVM-based VM platform without accounting for the overhead of network latency for disk writes. Reduced the impact of network latency by identifying and implementing separation of workloads across multiple virtual block devices. Authored runbooks and automated workflows for long-term resiliency.
 
-### Staff Engineer
+#### Staff Engineer
 {: .inline-left}
 #### [Kajabi](https://kajabi.com)&nbsp;(Remote)
 {: .inline-center}
@@ -37,7 +37,7 @@ body_class: resume
 - Reported to the SVP of Engineering and was responsible for technical leadership in the Shared Services group which included over 30 technical staff across Production Engineering, UX Engineering, Quality Engineering, and Security & Risk.
 - Worked with 9 cross-functional development teams to provide architectural leadership for data systems design and operation. Mentored engineers in optimizing application performance and writing resilient application code against distributed systems like Kafka and DynamoDB.
 
-### Staff Production Engineer
+#### Staff Production Engineer
 {: .inline-left}
 #### [Kajabi](https://kajabi.com)&nbsp;(Remote)
 {: .inline-center}
@@ -48,7 +48,7 @@ body_class: resume
 - Optimized Aurora PostgreSQL configuration and monitoring to support 50,000 QPS during peak loads, ensuring consistent performance for critical workloads.
 - Isolated performance bottlenecks in PostgreSQL by decoupling workloads into a separate Aurora cluster. Deployed a foreign data wrapper (FDW) to maintain seamless joins and prevent system-wide slowdowns during peak traffic.
 
-### Senior Production Engineer (Tech Lead)
+#### Senior Production Engineer (Tech Lead)
 {: .inline-left}
 #### [Kajabi](https://kajabi.com)&nbsp;(Remote)
 {: .inline-center}
@@ -61,7 +61,9 @@ body_class: resume
 - Developed IaC, migration automations, and provided technical leadership to the Production Engineering team and the 6 product development teams for migrating application compute workloads from Heroku to AWS EKS.
 - Upgraded dozens of dependencies in the Rails monolith, wrote a handful of libraries and services in Ruby around availability, and helped improve the observability of the system both by directly adding instrumentation and by working with the product development teams to add their own instrumentation and monitors.
 
-### Senior Software Consultant
+<div class="new-page"></div>
+
+#### Senior Software Consultant
 {: .inline-left}
 #### Subcontractor for [Test Double](https://testdouble.com)&nbsp;(Remote)
 {: .inline-center}
@@ -72,7 +74,7 @@ body_class: resume
 - Diagnosed and fixed several issues in a Go service that ended up reducing the memory usage of ~10k server instances ~250MB each, thereby drastically reducing the overall memory usage across their Kubernetes cluster.
 - Worked on a fork of the Ruby VM in C to prototype the reliability and performance impact of a proposed change to string handling in Ruby.
 
-### Lead Software Engineer
+#### Lead Software Engineer
 {: .inline-left}
 #### [ACS Technologies](https://www.acstechnologies.com)&nbsp;(Greenville, SC)
 {: .inline-center}
@@ -82,7 +84,7 @@ body_class: resume
 - Led a team of 3 engineers extracting a service from a monolithic .NET web application on MSSQL to a Go microservice on Couchbase.
 - Supported engineers on other teams in learning Go, especially regarding concurrency and testing, and was a trusted resource for them despite being at the company a short time.
 
-### Software Consultant
+#### Software Consultant
 {: .inline-left}
 #### [Test Double](https://testdouble.com)&nbsp;(Remote)
 {: .inline-center}
@@ -91,7 +93,7 @@ body_class: resume
 
 Integrated with client teams to help improve their software delivery process while personally designing and implementing software systems. The highlight of this role for me was working with distributed systems for the first time, in particular Kafka, Cassandra, and microservices in Java and Go.
 
-### Front End Engineering Instructor
+#### Front End Engineering Instructor
 {: .inline-left}
 #### The Iron Yard&nbsp;(Greenville SC)
 {: .inline-center}
@@ -100,7 +102,7 @@ Integrated with client teams to help improve their software delivery process whi
 
 Taught 12-week courses in front end development, focused on JavaScript apps using simple Node.js backends.
 
-### Web Developer
+#### Web Developer
 {: .inline-left}
 #### Freelance
 {: .inline-center}
@@ -113,7 +115,7 @@ Taught 12-week courses in front end development, focused on JavaScript apps usin
 <hr>
 
 ## Education
-### B.Sc. Computer Science
+#### B.Sc. Computer Science
 {: .inline-left}
 #### Franciscan University of Steubenville
 {: .inline-center}
