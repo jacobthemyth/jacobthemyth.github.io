@@ -92,7 +92,7 @@ $secondary-color: $inverted-font-color;
     margin-bottom: modular-scale(3);
 
     @include media($small-screen-up) {
-      @include span-columns(3);
+      @include span-columns(4);
     }
   }
 

@@ -8,7 +8,7 @@ body_class: resume
 
 - **Languages**: Ruby, Go, Bash, Lua, C, SQL, JavaScript (Node.js)
 - **Distributed Systems & Databases**: PostgreSQL, Kafka, Cassandra, Redis, Elasticsearch
-- **Cloud & Orchestration**: AWS (e.g. EC2, EBS, AMI versioning & management, EKS), Kubernetes, Terraform, Docker, Linux KVM
+- **Cloud & Orchestration**: AWS, Kubernetes, Terraform, Docker, Linux KVM
 - **Linux Expertise**: RHEL, Ubuntu, kernel debugging (e.g. strace, tc), kernel tuning (e.g. I/O scheduling, virtual memory), networking (e.g. iptables, nftables, tcpdump), and storage (e.g. LVM, XFS, ext4)
 - **Other**: Observability frameworks, SQL query optimization, distributed systems design
 - **Basic knowledge of**: ML model training and inference, GPU architecture and memory model
