@@ -6,12 +6,13 @@ body_class: resume
 
 ## Professional Summary
 
-Software & Site Reliability Engineer with extensive experience optimizing performance-critical applications and implementing infrastructure-as-code and CI/CD pipelines. Motivated by developing intuitive abstractions that allow developers to work effectively with complex systems.
+Platform Engineer / Site Reliability Engineer with extensive experience optimizing performance-critical applications and implementing infrastructure-as-code and CI/CD pipelines. Motivated by developing intuitive abstractions that allow developers to work effectively with complex systems.
 
 ## Languages and technologies
 
-- **Languages**: Ruby, Go, Bash, Lua (for Redis and nginx), SQL, C, JavaScript (Node.js)
+- **Languages**: Ruby, Go, Bash, Lua (for Redis and nginx), SQL, C, JavaScript (Node.js), Python
 - **Distributed Systems & Databases**: PostgreSQL, Redis, Kafka, Cassandra, Elasticsearch, S3, DynamoDB
+- **DevOps**: AWS, GCP, Kubernetes, ArgoCD, GitHub Actions, Terraform, Kustomize
 
 <hr>
 
@@ -25,7 +26,6 @@ Software & Site Reliability Engineer with extensive experience optimizing perfor
 {: .inline-right}
 
 - Refactored an untested and brittle C/Ruby integration based on SWIG, enabling Ruby developers to make API changes without C knowledge while maintaining runtime safety and performance
-- Developed a Fiddle-based wrapper for interactive library exploration and incremental API design, improving development velocity for a Ruby service with C dependencies
 - Resolved a catastrophic outage by identifying and resolving virtual machine I/O bottlenecks, optimizing workload distribution across virtual block devices to account for network latency overhead
 - Authored detailed runbooks and automated workflows to ensure long-term system resiliency
 
